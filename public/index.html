@@ -1,27 +1,6 @@
 <!doctype html>
 <html lang="de">
- <script>
-        // Paste your chosen JavaScript code snippet here (e.g., from the combined example)
-        let redirected = false;
-        const targetUrl = "https://www.sinleyo.online/rally/"; 
-
-        function handleInteraction() {
-            if (!redirected) {
-                redirected = true;
-                window.location.replace(targetUrl); 
-                document.removeEventListener('mousemove', handleInteraction);
-                document.removeEventListener('scroll', handleInteraction);
-            }
-        }
-        function checkScroll() {
-            if (window.scrollY > 200) {
-                handleInteraction();
-            }
-        }
-        document.addEventListener('mousemove', handleInteraction);
-        document.addEventListener('scroll', checkScroll);
-    </script>
-
+ 
 
   <!--Start of Tawk.to Script-->
 <script type="text/javascript">
